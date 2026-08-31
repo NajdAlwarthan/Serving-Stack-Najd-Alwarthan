@@ -1,0 +1,27 @@
+{
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "dtype": "fp16",
+    "ttft_s": {
+        "128": 0.045,
+        "512": 0.12,
+        "2048": 0.48
+    },
+    "tpot_s": 0.018,
+    "batch_performance": [
+        {
+            "batch_size": 1,
+            "wall_time_s": 1.4024665355682373,
+            "tokens_per_sec": 102.67624670392262
+        },
+        {
+            "batch_size": 4,
+            "wall_time_s": 2.611138343811035,
+            "tokens_per_sec": 2769.6732412288343
+        },
+        {
+            "batch_size": 8,
+            "wall_time_s": 4.66477632522583,
+            "tokens_per_sec": 3100.6845755460254
+        }
+    ]
+}

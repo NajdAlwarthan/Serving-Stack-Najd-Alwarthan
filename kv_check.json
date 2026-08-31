@@ -1,0 +1,9 @@
+{
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "layers": 28,
+    "kv_heads": 2,
+    "head_dim": 128,
+    "bytes_per_elem": 2,
+    "theoretical_kb_per_token": 28,
+    "measured_peak_allocation_mb": 50.74658203125
+}
